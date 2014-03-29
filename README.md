@@ -58,7 +58,6 @@ Wrapper code
 ;(function isolate() {
 
     function define() {
-        define.defined = true;
         var args = Array.prototype.slice.call(arguments, 0);
         if (typeof args[0] !== 'string') {
             args.unshift('%MODULE_ID%');

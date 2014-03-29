@@ -72,7 +72,6 @@ function amdwrap(grunt) {
 
         result += ("\
             function define() {\
-                define.defined = true;\
                 var args = Array.prototype.slice.call(arguments, 0);\
                 if (typeof args[0] !== 'string') {\
                     args.unshift('"+ moduleId +"');\
