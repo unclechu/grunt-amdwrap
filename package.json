@@ -1,0 +1,38 @@
+{
+  "name": "grunt-amdwrap",
+  "description": "A Grunt plugin for wrapping JS-modules written in AMD style",
+  "version": "0.0.1",
+  "homepage": "https://github.com/unclechu/grunt-amdwrap",
+  "author": {
+    "name": "Viacheslav Lotsmanov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/unclechu/grunt-amdwrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unclechu/grunt-amdwrap/issues"
+  },
+  "keywords": [
+    "grunt",
+    "wrap",
+    "amd",
+    "requirejs",
+    "require",
+    "define",
+    "grunt-wrap",
+    "grunt-amdwrap",
+    "grunt-contrib",
+    "gruntplugin",
+    "grunt-plugin"
+  ],
+  "licenses": [
+    {
+      "type": "GNU/GPLv3 by Free Software Foundation",
+      "url": "https://github.com/unclechu/grunt-amdwrap/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": "*"
+  }
+}
