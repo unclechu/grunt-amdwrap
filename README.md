@@ -34,7 +34,7 @@ grunt.initConfig({
                     cwd: 'scripts/libs/',
                     src: [ '**/*.js' ],
                     dest: 'scripts/build/wrap/libs/',
-                }
+                },
             ],
         },
         src: {
@@ -44,7 +44,7 @@ grunt.initConfig({
                     cwd: 'scripts/src/',
                     src: [ '**/*.js' ],
                     dest: 'scripts/build/wrap/',
-                }
+                },
             ],
         },
     },
